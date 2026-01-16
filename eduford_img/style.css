@@ -8,11 +8,9 @@
 .header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(
-      rgba(23, 45, 211, 0.5),
-      rgba(16, 63, 181, 0.5)
-    ),
-    url("/Hoor\ banner.png");
+  background-image:
+    linear-gradient(rgba(23, 45, 211, 0.5), rgba(16, 63, 181, 0.5)),
+    url("/Images/Hoor\ banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -297,7 +295,9 @@ p {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   text-align: left; /* keep paragraph left-aligned */
 }
 .facilities-col img {
@@ -373,7 +373,9 @@ p {
   background: #fff3f3;
   padding: 20px;
   border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Hover effect */
@@ -441,8 +443,8 @@ p {
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/banner2.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/banner2.jpg);
 }
 
 .cta h1 {
